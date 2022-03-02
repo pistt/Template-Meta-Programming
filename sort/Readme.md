@@ -1,8 +1,5 @@
 # 模板元排序
 
-
-
-
 ## 详细参考文档请见 docs 文件夹中内容
 
 - 具体的实现方法请参考源代码及注释
@@ -33,11 +30,9 @@ Linux 下使用 make 查看 SortTest.cpp 中测试例子的测试效果
 
 ### 基本架构图
 
-<img src=".\images\architecture.png" alt="测试效果1" style="zoom:50%;" align="left" />
+<img src=".\images\architecture.png" alt="测试效果1" style="zoom:20%;" align="left" />
 
 
-
-<br/><br/><br/>
 ### 关于模板元一些有趣的补充 Sth_Interesting
 
 一些关于模板元的实用视频：
