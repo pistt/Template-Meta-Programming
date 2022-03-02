@@ -48,6 +48,21 @@ Linux 下使用 make 查看 SortTest.cpp 中测试例子的测试效果
 ### CompareFuncs
 
 自定义的用于比较的比较元函数，类似于使用 std::sort 时需要给定的比较规则
+内置了两个和 stl 中 less, greater 类似的函数
+```c++
+// Put your compare functions here
+// Must be the form of 'template <int, int>'
+// and has a constexpr static bool member named value
+template <int A, int B>
+struct lessthan {
+	constexpr static bool value = (A < B);
+};
+
+template <int A, int B>
+struct great {
+	constexpr static bool value = (A > B);
+};
+```
 
 
 
