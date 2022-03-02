@@ -1,6 +1,5 @@
 # 模板元排序
 
-[TOC]
 
 
 
@@ -38,7 +37,7 @@ Linux 下使用 make 查看 SortTest.cpp 中测试例子的测试效果
 
 
 
-
+\\
 ### 关于模板元一些有趣的补充 Sth_Interesting
 
 一些关于模板元的实用视频：
